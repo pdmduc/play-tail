@@ -2,8 +2,12 @@
   "name": "play-tail",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "author": "pdmduc <phandinhminhduc@gmail.com>",
+  "scripts": {
+    "dev": "npx tailwindcss -i style.css -o ./disk/output.css --watch"
+  },
   "dependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "license": "MIT"
 }
