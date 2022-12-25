@@ -1,13 +1,14 @@
 {
-  "name": "play-tail",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "pdmduc <phandinhminhduc@gmail.com>",
-  "scripts": {
-    "dev": "npx tailwindcss -i style.css -o ./disk/output.css --watch"
-  },
-  "dependencies": {
-    "tailwindcss": "^3.2.4"
-  },
-  "license": "MIT"
+    "name": "play-tail",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "pdmduc <phandinhminhduc@gmail.com>",
+    "scripts": {
+        "dev": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch",
+        "build": "npx tailwindcss -i ./style.css -o ./dist/output.css --minify"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "tailwindcss": "^3.2.4"
+    }
 }

@@ -1,15 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Play with Tailwind CSS</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Play with Tailwind CSS</title>
 
-    <link href="/dist/output.css" rel="stylesheet" />
-  </head>
+        <link href="/dist/output.css" rel="stylesheet" />
+    </head>
 
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-  </body>
+    <body class="bg-sky-700">
+        <div class="mt-24 mb-16 bg-white max-w-4xl px-10 mx-auto">
+            <div class="flex flex-row">
+                <div class="basic-2/5">
+                    <img
+                        src="./imgs/avatar.png"
+                        class="w-full -mt-6 drop-shadow-2xl"
+                    />
+                </div>
+                <div class="ml-4 grow">
+                    <div class="flex flex-row">
+                        <div
+                            class="grow border-b border-r border-b-red-700 border-r-red-700 pb-2 pl-4"
+                        >
+                            <h2 class="font-mono text-lg font-bold">
+                                Max Phan
+                            </h2>
+                            <p class="font-light text-gray-700">Tail Player</p>
+                        </div>
+                        <div
+                            class="grow border-b border-r border-b-red-700 border-r-red-700 pb-2 pl-4 text-center"
+                        >
+                            <h2 class="font-mono text-lg font-bold">Hobby</h2>
+                            <p class="font-light text-gray-700">
+                                Computer programming, Video Game, Web
+                                Development
+                            </p>
+                        </div>
+                        <div
+                            class="grow border-b border-b-red-700 flex justify-center items-center"
+                        >
+                            <button
+                                class="bg-yellow-400 text-white font-bold px-6 py-1"
+                            >
+                                Subcribe
+                            </button>
+                        </div>
+                    </div>
+                    <div class="pl-4 mt-5">
+                        <div class="flex flex-row">
+                            <div class="pr-4">
+                                <h2 class="font-mono font-bold">
+                                    Introduction
+                                </h2>
+                                <p class="font-light text-sm">
+                                    My love for programming came a few years ago
+                                    when I felt unchallenged and unfulfilled at
+                                    my job. I decided to do a degree in computer
+                                    science part-time to see further my interest
+                                    in software development. This career change
+                                    has since opened up a world of exciting
+                                    opportunities for me and has been what I
+                                    have lived and breathed for the last few
+                                    years.
+                                </p>
+                            </div>
+                            <div class="basis-2/5">
+                                <h2 class="font-mono font-bold">Gerne</h2>
+                                <span
+                                    class="inline-block text-xs text-gray-500 border border-red-700 px-2 py-1 mt-1 rounded-lg"
+                                    >JS</span
+                                >
+                                <span
+                                    class="inline-block text-xs text-gray-500 border border-red-700 px-2 py-1 mt-1 rounded-lg"
+                                    >Python</span
+                                >
+                                <span
+                                    class="inline-block text-xs text-gray-500 border border-red-700 px-2 py-1 mt-1 rounded-lg"
+                                    >CSS</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 pb-8">
+                <h2 class="font-mono font-bold">List of favorite cosplayer</h2>
+                <div class="grid grid-cols-5 gap-2 mt-2">
+                    <div class="relative">
+                        <img class="w-full" src="./imgs/ame.jpeg" alt="" />
+                    </div>
+                    <div class="relative col-span-2">
+                        <img class="w-full" src="./imgs/fantasy.jpeg" alt="" />
+                    </div>
+                    <div class="relative row-span-2">
+                        <img
+                            class="w-full h-full object-cover"
+                            src="./imgs/mimi.jpeg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="relative row-span-2">
+                        <img
+                            src="./imgs/nekoko.jpeg"
+                            alt=""
+                            class="w-full h-full object-cover"
+                        />
+                    </div>
+                    <div class="relative col-span-2">
+                        <img
+                            src="./imgs/miu.jpeg"
+                            alt=""
+                            class="w-full h-full object-cover"
+                        />
+                    </div>
+                    <div class="relative row-span-2">
+                        <img
+                            src="./imgs/meenfox.jpeg"
+                            alt=""
+                            class="w-full h-full object-cover"
+                        />
+                    </div>
+
+                    <div class="relative">
+                        <img
+                            src="./imgs/hidori.jpeg"
+                            class="w-full h-full object-cover"
+                        />
+                    </div>
+                    <div class="relative">
+                        <img
+                            src="./imgs/hana.jpeg"
+                            class="w-full h-full object-cover"
+                        />
+                    </div>
+                    <div class="relative col-span-2">
+                        <img
+                            src="./imgs/azami.png"
+                            alt=""
+                            class="w-full h-full object-cover"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
